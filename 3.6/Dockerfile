@@ -12,6 +12,7 @@ ENV PYTHON_VERSION=3.6 \
     LANG=en_US.UTF-8 \
     PIP_NO_CACHE_DIR=off
 
+
 ENV SUMMARY="Platform for building and running Python $PYTHON_VERSION applications" \
     DESCRIPTION="Python $PYTHON_VERSION available as container is a base platform for \
 building and running various Python $PYTHON_VERSION applications and frameworks. \
@@ -26,7 +27,7 @@ LABEL summary="$SUMMARY" \
       io.k8s.description="$DESCRIPTION" \
       io.k8s.display-name="Python 3.6" \
       io.openshift.expose-services="8080:http" \
-      io.openshift.tags="builder,python,python36,rh-python36" \
+      io.openshift.tags="builder,python,python36,python-36,rh-python36" \
       com.redhat.component="python36-container" \
       name="centos/python-36-centos7" \
       version="1" \
