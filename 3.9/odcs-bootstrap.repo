@@ -1,0 +1,9 @@
+[odcs-572842]
+name=ODCS repository for compose odcs-572842
+baseurl=http://odcs.engineering.redhat.com/composes/odcs-572842/compose/Temporary/$basearch/os
+type=rpm-md
+skip_if_unavailable=False
+gpgcheck=0
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
